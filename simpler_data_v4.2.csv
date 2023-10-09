@@ -1,0 +1,76 @@
+You have to open the file first of course, and read its contents - you cannot simply pass the path to the encode function.
+
+Edit: Ok, here is an update after you have edited your original question.
+JSON is an open standard file format and data interchange format that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and arrays. It is a common data format with diverse uses in electronic data interchange, including that of web applications with 
+JSON is an open standard file format and data interchange format that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and arrays. It is a common data format with diverse uses in electronic data interchange, including that of web applications with 
+
+JSON is an open standard file format and data interchange format that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and arrays. It is a common data format with diverse uses in electronic data interchange, including that of web applications with 
+JSON is an open standard file format and data interchange format that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and arrays. It is a common data format with diverse uses in electronic data interchange, including that of web applications with 
+
+
+How to find a Github file 's SHA blob
+First of all, remember to use raw strings (prefix the string with 'r') when using path delimiters on Windows, to prevent accidentally hitting an escape character. Second, PIL's Image.open either accepts a filename, or a file-like (that is, the object has to provide read, seek and tell methods).
+
+That being said, you can use cStringIO to create such an object from a memory buffer:
+
+So, you can see what the SHA is in the "sha" field of the JSON response. Use that when you formulate your request to update the file with a new version. After you have successfully updated the file, the file will have a new SHA that you will
+ need to request before it can be updated again. (Unless, I guess, your next update goes on a different branch.)
+
+Answer a question I'm using this API to update a file on my repo, it requires me to have a valid SHA blob for a file that I want to update: How do I find 
+dasdasdas
+
+Answer a question I'm using this API to update a file on my repo, it requires me to have a valid SHA blob for a file that I want to update: How do I find 
+dasdasdas
+
+Answer a question I'm using this API to update a file on my repo, it requires me to have a valid SHA blob for a file that I want to update: How do I find 
+dasdasdas
+
+
+Answer a question I'm using this API to update a file on my repo, it requires me to have a valid SHA blob for a file that I want to update: How do I find 
+dasdasdas
+
+Answer a question I'm using this API to update a file on my repo, it requires me to have a valid SHA blob for a file that I want to update: How do I find 
+dasdasdas
+
+Answer a question I'm using this API to update a file on my repo, it requires me to have a valid SHA blob for a file that I want to update: How do I find 
+dasdasdas
+
+Answer a question I'm using this API to update a file on my repo, it requires me to have a valid SHA blob for a file that I want to update: How do I find 
+dasdasdas
+
+Answer a question I'm using this API to update a file on my repo, it requires me to have a valid SHA blob for a file that I want to update: How do I find 
+dasdasdas
+
+
+Answer a question I'm using this API to update a file on my repo, it requires me to have a valid SHA blob for a file that I want to update: How do I find 
+dasdasdas
+
+
+
+Answer a question I'm using this API to update a file on my repo, it requires me to have a valid SHA blob for a file that I want to update: How do I find 
+dasdasdas
+
+Answer a question I'm using this API to update a file on my repo, it requires me to have a valid SHA blob for a file that I want to update: How do I find 
+dasdasdas
+
+Answer a question I'm using this API to update a file on my repo, it requires me to have a valid SHA blob for a file that I want to update: How do I find 
+dasdasdas
+
+
+Answer a question I'm using this API to update a file on my repo, it requires me to have a valid SHA blob for a file that I want to update: How do I find 
+dasdasdas
+
+Answer a question I'm using this API to update a file on my repo, it requires me to have a valid SHA blob for a file that I want to update: How do I find 
+dasdasdas
+
+Answer a question I'm using this API to update a file on my repo, it requires me to have a valid SHA blob for a file that I want to update: How do I find 
+dasdasdas
+
+Answer a question I'm using this API to update a file on my repo, it requires me to have a valid SHA blob for a file that I want to update: How do I find 
+dasdasdas
+
+Answer a question I'm using this API to update a file on my repo, it requires me to have a valid SHA blob for a file that I want to update: How do I find 
+dasdasdas
+
+Answer a question I'm using this API to update a file on my repo, it requires me to have a valid SHA blob for a file that I want to update: How do I find 
+dasdasdas
